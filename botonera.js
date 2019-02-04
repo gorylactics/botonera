@@ -7,7 +7,8 @@ window.addEventListener('load' , function () {
    var contador = document.querySelector('#contador');
 
    function positivo() {
-       
+       document.onclick(positivo);
+       console.log('click en el boton')
    }
 
 });
