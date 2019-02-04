@@ -2,13 +2,16 @@
 
 window.addEventListener('load' , function () {
    
-   var positivo = document.querySelector('#positivo');
-   var negativo = document.querySelector('#negativo');
-   var contador = document.querySelector('#contador');
+    var positivo = document.querySelector('#positivo');
+    var negativo = document.querySelector('#negativo');
+    var contador = document.querySelector('#contador');  
 
-   function positivo() {
-       document.onclick(positivo);
-       console.log('click en el boton')
+   function aumentar (){
+       if(aumentar <=0){
+           console.log('el numero es cero')
+       }else{
+           console.log('ha cambiado')
+       }
    }
 
 });
