@@ -6,13 +6,13 @@ window.addEventListener('load' , function () {
     var negativo = document.querySelector('#negativo');
     var contador = document.querySelector('#contador');  
 
-   function aumentar (){
-       if(aumentar <=0){
-           console.log('el numero es cero')
-       }else{
-           console.log('ha cambiado')
-       }
-   }
+    positivo.addEventListener('click', function(){
+        console.log('boton apretado');
+        for(var contador=0; contador<= 0 ; i++){
+           
+                console.log(contador);
+        
+    });
 
 });
 
