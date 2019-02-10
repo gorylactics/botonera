@@ -4,13 +4,13 @@ window.addEventListener('load' , function () {
    
     var positivo = document.querySelector('#positivo');
     var negativo = document.querySelector('#negativo');
-    var contador = document.querySelector('#contador');  
-    var likes =  1;
+    var contador = document.querySelector('#contador' + 1);  
+    var likes =   1;
 
     positivo.addEventListener('click', function(){
-        console.log('boton apretado')
-        document.querySelector('#contador')
-            console.log(likes ++)
+        // console.log('boton apretado')
+        // console.log(contador ++)
+       
         
         
         
