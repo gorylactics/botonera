@@ -4,23 +4,35 @@ window.addEventListener('load' , function () {
    
     var positivo = document.querySelector('#positivo');
     var negativo = document.querySelector('#negativo');
-    var contador = document.querySelector('#contador'+ 1);  
-    var likes = 1 + contador ;
+    var contador = document.querySelector('#contador');  
+    
 
     positivo.addEventListener('click', function(){
-        // console.log('boton apretado')
-        // console.log(contador ++)
-       
-        if(likes == 1){
-            console.log(' es cierto')
-        }else{
-            console.log('no es verdad' , contador++)
-        }
+        
+        console.log('boton apretado')
+        console.log(contador)
+        document.querySelector('#contador').innerHTML++
         
         
     });
 
+    negativo.addEventListener('click' , function () {
+        
+        console.log('apretado negativo') 
+        console.log('boton apretado')
+        console.log(contador)
+        document.querySelector('#contador').innerHTML--
+        
+    });
+
 });
+
+   
+    
+    
+    
+
+
 
 
 
