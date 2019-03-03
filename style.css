@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+.jumbotron{
+    height: 20vh;
+}
+.boton{
+    width: 100%;
+    border-radius: 25px 25px 25px 25px ;
+}
