@@ -8,8 +8,8 @@ window.addEventListener('load' , function () {
     
     positivo.addEventListener('click', function(){
         
-        console.log('boton apretado')
-        console.log(contador)
+        // console.log('boton apretado')
+        // console.log(contador)
         document.querySelector('#contador').innerHTML++
         
         
@@ -18,14 +18,19 @@ window.addEventListener('load' , function () {
 
     negativo.addEventListener('click' , function () {
         
-        console.log('apretado negativo') 
-        console.log('boton apretado')
-        console.log(contador)
+        // console.log('apretado negativo') 
+        // console.log('boton apretado')
+        // console.log(contador)
         document.querySelector('#contador').innerHTML--
         
         
     });
 
+    if(contador == Number ){
+        console.log('esta funcionando')
+    }else{
+        console.log(' no es 2')
+    }
 });
 
    
