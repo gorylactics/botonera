@@ -1,11 +1,27 @@
 body{
-    background-color: black;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .jumbotron{
     height: 20vh;
 }
-.boton{
-    width: 100%;
-    border-radius: 25px 25px 25px 25px ;
+
+#contador{
+    height: 90%;
 }
+
+.contenedor{
+  
+}
+.boton{
+   
+
+   
+    background-color: orange;
+
+}
+
