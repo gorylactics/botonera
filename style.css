@@ -11,15 +11,16 @@ body{
 }
 
 #contador{
-    height: 90%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 100px;
+    color: pink;
+    
 }
 
-.contenedor{
-  
-}
+
 .boton{
-   
-
    
     background-color: orange;
 
