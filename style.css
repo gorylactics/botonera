@@ -18,11 +18,14 @@ body{
     color: pink;
     
 }
-
+.container__fluid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
 
 .boton{
    
-    background-color: orange;
-
 }
 
